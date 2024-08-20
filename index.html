@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+</head>
+<body>
+    <script>
+        // List of Google Forms
+        var links = [
+            'https://docs.google.com/forms/d/19S1q1eDIjCQPTp1ijhCxaCpeWqI1b6KJBGOQT4VQOY8', // Replace with your first Google Form link
+            'https://docs.google.com/forms/d/1UH4BmlUeBiD5ud4YQpEDGIYADwHArUAhrTwsSJq-cYg'  // Replace with your second Google Form link
+        ];
+
+        // Randomly select a link
+        var randomLink = links[Math.floor(Math.random() * links.length)];
+
+        // Redirect to the selected link
+        window.location.href = randomLink;
+    </script>
+</body>
+</html>
